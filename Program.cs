@@ -31,7 +31,7 @@ builder.Services.AddApiVersioning(setupAction =>
         //options.Conventions.Controller<HomeController>()
         //.Action<HomeController>(c=>c.GetGreting())
         //.Action<HomeController>(c=>c.GetToday())
-
+         
 
         })
     .AddApiExplorer(options =>
